@@ -1,0 +1,29 @@
+{
+  "algorithm": "qbft",
+  "nodes": [
+    {
+      "name": "rpcnode",
+      "client": "besu",
+      "rpcUrl": "http://localhost:8545",
+      "privateTxUrl": ""
+    },
+    {
+      "name": "validator1",
+      "client": "besu",
+      "rpcUrl": "http://localhost:8546",
+      "privateTxUrl": ""
+    },
+    {
+      "name": "validator2",
+      "client": "besu",
+      "rpcUrl": "http://localhost:8547",
+      "privateTxUrl": ""
+    },
+    {
+      "name": "validator3",
+      "client": "besu",
+      "rpcUrl": "http://localhost:8548",
+      "privateTxUrl": ""
+    }
+  ]
+}
